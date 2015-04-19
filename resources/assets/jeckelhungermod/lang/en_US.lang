@@ -1,0 +1,20 @@
+
+command.hunger.usage.text=Display relevant hunger information.
+
+command.display.difficulty.text=Difficulty: %s
+
+command.display.state.true.text=Hunger Effects: Enabled
+command.display.state.false.text=Hunger Effects: Disabled
+command.display.state.true.true.text=Hunger Effects: Enabled (Active)
+command.display.state.true.false.text=Hunger Effects: Enabled (Inactive)
+
+command.display.peacefulhunger.false.text=Peaceful Hunger: Disabled
+command.display.peacefulhunger.true.true.text=Peaceful Hunger: Enabled (Active)
+command.display.peacefulhunger.true.false.text=Peaceful Hunger: Enabled (Inactive)
+
+command.display.hungerrate.text=Hunger Rate: %f
+command.display.metabolicrate.text=Metabolic Rate: %f
+
+command.display.food.text=Food Level: %f
+command.display.saturation.text=Saturation Level: %f
+command.display.exhaustion.text=Exhaustion Level: %f

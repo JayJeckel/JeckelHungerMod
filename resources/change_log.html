@@ -1,0 +1,106 @@
+
+<header><h3>Version: 2.3.0-beta</h3></header>
+
+<ul>
+<li>Mod: Updated to Forge 10.13.2.1291.</li>
+<li>Code: General cleanup.</li>
+</ul>
+
+<header><h3>Version: 2.2.5-beta</h3></header>
+
+<ul>
+<li>Fix: Returned hunger settings info to the output of '/jeckelhungermod' that was accidentally removed in the last update.</li>
+</ul>
+
+<header><h3>Version: 2.2.4-beta</h3></header>
+
+<ul>
+<li>Fix: Update Checking will now be done asynchronously, as was intended.</li>
+<li>Fix: Hopefully fixed issue where the config screen was not available for some people.</li>
+</ul>
+
+<header><h3>Version: 2.2.3-beta</h3></header>
+
+<ul>
+<li>Note: This update does NOT affect the content or game play features of the mod.</li>
+<li>Code: Implemented prototype system to separate config values from config handling.</li>
+</ul>
+
+<header><h3>Version: 2.2.2-beta</h3></header>
+
+<ul>
+<li>Fix: Update checker call to client method from server, causing mod info command not to work, has been fixed.</li>
+<li>Changed: Cleaned up and moved the info displayed by the '/hunger' command to the '/jeckelhungermod' mod info command.</li>
+<li>Removed: The '/hunger' command was removed.</li>
+</ul>
+
+<header><h3>Version: 2.2.1-beta</h3></header>
+
+<ul>
+<li>Note: This update does NOT affect the content or game play features of the mod.</li>
+<li>Mod: Updated to Forge 10.13.2.1230.</li>
+<li>New: Implemented mod config, disableable version checker, and '/jeckelhungermod' mod info command.</li>
+</ul>
+
+<header><h3>Version: 2.2.0-beta</h3></header>
+
+<ul>
+<li>Fix: Not resolving exhaustion field in obfuscated environments.</li>
+<li>Fix: Changing config values through the gui doesn't update all internal values.</li>
+<li>Command: Bit of reformatting for the hunger command's display text.</li>
+<li>Code: General code clean up.</li>
+<li>Misc: Implemented some basic logging in initialization methods.</li>
+</ul>
+
+<header><h3>Version: 2.1.0-beta</h3></header>
+
+<ul>
+<li>Mod: Updated to Minecraft 1.7.10 and Forge 10.13.1.1217.</li>
+<li>Mod: Implemented a default Forge config screen to modify mod settings.</li>
+<li>Mod: Renamed the mod from JeckelHungerCoremod to JeckelHungerMod.</li>
+<li>Mod: Removed all coremod related aspects, making this a normal mod.</li>
+<li>Removed: Since no coremod remains, removed several features.</li>
+<li>Changed: The /hunger command now displays food, saturation, and exhaustion levels.</li>
+</ul>
+
+<header><h3>Version: 1.0.4</h3></header>
+
+<ul>
+<li>Updated: Forge 9.10.0.835.</li>
+<li>Fix: Child mod wasn't loading because Forge changed how coremods with other normal mods in the same jar are read.</li>
+<li>Fix: Hunger command was only callable by OPs in creative mode. Now anyone can call it any time.</li>
+<li>Removed: The dif command was removed. The current difficulty is now displayed in the hunger command's list of info.</li>
+</ul>
+
+<header><h3>Version: 1.0.3</h3></header>
+
+<ul>
+<li>Updated: Forge 9.10.0.804.</li>
+<li>New: Config option to enable hunger when difficulty is set to peaceful. Default value false to preserve vanilla behavior.</li>
+<li>New: Four new config options that control the how far health will fall when the player is starving. There is one option for each difficulty level. Note that the peaceful difficulty option only applies if hunger is enabled for peaceful difficulty.</li>
+<li>New: Added the /dif command. Works the same as the vanilla /difficulty command, but will display the current difficulty when called with no arguments.</li>
+<li>New: Added /hunger command. Takes no arguments and displays the values loaded from the mod's config file.</li>
+<li>Code: Rewrote the mod to replace the entire FoodStats class, instead of just making the exhaustion variable public.</li>
+</ul>
+
+<header><h3>Version: 1.0.2</h3></header>
+
+<ul>
+<li>Updated: Minecraft 1.6.2.</li>
+<li>Updated: Forge 9.10.0.789.</li>
+<li>Fix: Added MCVersion to make the forge loader happy.</li>
+<li>Code: Renamed the mod id and root namespace to all lowercase, JeckelHungerCoremod to jeckelhungercoremod, because forge.</li>
+</ul>
+
+<header><h3>Version: 1.0.1</h3></header>
+
+<ul>
+<li>Fix: Error in config metabolic rate comment. Value applies to each 20 minute minecraft cycle (day time or night time, ie half a day) and not a full 40 minecraft day.</li>
+<li>Misc: Removed an unnecessary import.</li>
+</ul>
+
+<header><h3>Version: 1.0.0</h3></header>
+
+<ul>
+<li>Initial release.</li>
+</ul>

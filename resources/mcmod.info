@@ -1,0 +1,25 @@
+{
+	"modListVersion": 2,
+	"modList":
+	[
+		{
+			"modid": "jeckelhungermod",
+			"name": "JeckelHungerMod",
+			"description": "JeckelHungerMod modifies the hunger mechanic in the hopes increasing its importance to survival. Two configurable values are provided to accomplish this goal: Hunger Rate, to increase or decrease the amount of hunger gained through actions, and Metabolic Rate, to optionally provide a steady drain on hunger even when players remain still and inactive.",
+			"version": "${version}",
+			"mcversion": "${mcversion}",
+			"forgeversion": "${forgeversion}",
+			"url": "http://minecraft.jeckelland.site88.net/mods/${name}/",
+			"updateUrl": "",
+			"authorList": ["JayJeckel"],
+			"credits": "Inspired by and based on the Hunger++ Bukkit plugin: http://dev.bukkit.org/bukkit-plugins/hungerplusplus/",
+			"logoFile": "banner.png",
+			"screenshots": [],
+			"parent": "",
+			"requiredMods": [ "Forge" ],
+			"dependencies": [],
+			"dependants": [],
+			"useDependencyInformation": true
+		}
+	]
+}

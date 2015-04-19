@@ -1,0 +1,60 @@
+<p>
+This mod is based on the public domain Bukkit plugin created by Twilight314, <a target='_blank' href='http://dev.bukkit.org/bukkit-mods/hungerplusplus/'>Hunger++</a>. Although the code is written from scratch, unending respect goes to Twilight314 for the magic math that I could never have figured on my own. Additional thanks for releasing Hunger++ into the public domain so that other modders can build on its wonderful work.
+</p>
+
+<h4>Recommended Companion Mods</h4>
+
+<ul>
+<li><a href='http://minecraft.jeckelland.site88.net/mods/JeckelFoodMod/'>JeckelFoodMod</a></li>
+<li><a href='http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2222837-applecore-an-api-for-modifying-the-food-and-hunger'>AppleCore</a></li>
+</ul>
+
+<h4>Hunger and Metabolic Rates</h4>
+
+<p>
+Hunger Rate affects how quickly taking actions, such as sprinting, mining, etc, will cause a player to lose shanks and lower their hunger bar. Setting this value to a positive number, for example 1.5 or 4.0, will cause shanks to disappear at an increased rate. Conversely, using a negative value, for example -0.5 or -2.0, will decrease the rate at which actions lower the hunger bar. Using a value of 1.0, the default value, actions will consume the same amount of shanks as vanilla Minecraft.
+</p>
+
+<p>
+Metabolic Rate controls the steady drain of hunger over time, even when remaining completely still and not performing any actions. The value represents the number of Minecraft days that a freshly spawned player with full food and saturation points will take to start starving if the player takes no actions and does not move at all. Decimal numbers are acceptable, for example 3.5, but negative numbers are not valid. Using a value of 0.0, the default value, will disable this feature.
+</p>
+
+<blockquote cite='http://dev.bukkit.org/bukkit-plugins/hungerplusplus/'>
+<p><small><strong>Quote: <a href='http://dev.bukkit.org/bukkit-plugins/hungerplusplus/' target='_blank'>Hunger++</a></strong></small></p>
+
+<p>
+In real life, the majority, and usually the large majority, of all calories a person burns for a day are just to keep the body functioning (In other words, what you'd burn just breathing, keeping your heart pumping, etc, even if you stayed in bed all day, sleeping). This is represented by the Metabolic Rate setting. The calories burned through activity, on the other hand, are represented by the Hunger Rate setting. This means anything other than sleeping, including everything from reading a book or typing on a computer, to lifting heavy weights or running a marathon.
+</p>
+
+<p>
+While the calories burned through your basal metabolism generally remain the same, the calories burned through activity vary heavily, depending on the person's level of exertion throughout the day. Two people might have the same basal metabolic rate, and therefore burn the same number of calories while at rest, but vary wildly in their calories burned through activities for the day. For the first person, who is very sedentary, has a desk job, and doesn't exercise, the calories burned through activity might only be 15% of the total burned that day. The second person, who undergoes extreme exertion from a very demanding physical job or performs heavy exercise all day, might end up with their calories burned through activity to be close to 50% of the total calories burned that day.
+</p>
+
+<p>
+Assuming that the average day of a person in a Minecraft world is very physically demanding and exhausting, these suggested settings have a ratio that is almost a 50/50 split between metabolism hunger (Just keeping your body alive) and hunger from your actions (such as mining, fighting, sprinting, jumping, etc). This assumes heavy activity, but will, of course, depend strongly on your actual activity level from day to day.
+</p>
+</blockquote>
+
+<h4>Suggested Settings</h4>
+
+<p>
+Below are some suggested values for the hunger and metabolic rate settings.
+</p>
+
+<table style=''>
+<thead>
+<tr><th style='text-align:left;'>Difficulty</th><th style='text-align:left;'>Hunger Rate</th><th style='text-align:left;'>Metabolic Rate</th></tr>
+</thead>
+<tfoot>
+<tr><td colspan=3>* Value represents vanilla Minecraft behavior.</td></tr>
+</tfoot>
+<tbody>
+<tr><td>Default</td>     <td style='text-align:right;'>*1.0</td><td style='text-align:right;'>*0.000</td></tr>
+<tr><td>Easy</td>        <td style='text-align:right;'>*1.0</td> <td style='text-align:right;'>1.500</td></tr>
+<tr><td>Moderate</td>     <td style='text-align:right;'>2.0</td> <td style='text-align:right;'>0.750</td></tr>
+<tr><td>Hard</td>         <td style='text-align:right;'>3.0</td> <td style='text-align:right;'>0.500</td></tr>
+<tr><td>Famine</td>       <td style='text-align:right;'>6.0</td> <td style='text-align:right;'>0.250</td></tr>
+<tr><td>Super Famine</td><td style='text-align:right;'>10.0</td> <td style='text-align:right;'>0.150</td></tr>
+<tr><td>Ultra Famine</td><td style='text-align:right;'>20.0</td> <td style='text-align:right;'>0.075</td></tr>
+</tbody>
+</table>
